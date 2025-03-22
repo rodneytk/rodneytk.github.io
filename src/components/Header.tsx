@@ -44,7 +44,7 @@ export function Header() {
           href="#home" 
           className="text-2xl font-display font-bold text-nibite-black dark:text-white"
         >
-          nibite<span className="text-nibite-blue">.</span>
+          nibite<span className="text-nibite-orange">.</span>
         </a>
         
         {/* Desktop navigation */}
@@ -53,12 +53,12 @@ export function Header() {
             <a
               key={item.name}
               href={item.href}
-              className="text-sm font-medium text-gray-700 hover:text-nibite-blue transition-colors duration-200 dark:text-gray-300 dark:hover:text-white"
+              className="text-sm font-medium text-gray-700 hover:text-nibite-orange transition-colors duration-200 dark:text-gray-300 dark:hover:text-white"
             >
               {item.name}
             </a>
           ))}
-          <Button className="bg-nibite-blue hover:bg-nibite-light-blue text-white transition-all duration-300">
+          <Button className="bg-nibite-orange hover:bg-nibite-light-orange text-white transition-all duration-300">
             Iniciar Projeto
           </Button>
         </nav>
@@ -86,13 +86,13 @@ export function Header() {
               <a
                 key={item.name}
                 href={item.href}
-                className="block py-2 text-base font-medium text-gray-700 hover:text-nibite-blue dark:text-gray-300 dark:hover:text-white"
+                className="block py-2 text-base font-medium text-gray-700 hover:text-nibite-orange dark:text-gray-300 dark:hover:text-white"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {item.name}
               </a>
             ))}
-            <Button className="w-full bg-nibite-blue hover:bg-nibite-light-blue text-white transition-all duration-300">
+            <Button className="w-full bg-nibite-orange hover:bg-nibite-light-orange text-white transition-all duration-300">
               Iniciar Projeto
             </Button>
           </div>

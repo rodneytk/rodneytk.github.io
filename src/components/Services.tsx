@@ -43,7 +43,7 @@ export function Services() {
             initial={{ opacity: 0 }}
             animate={isInView ? { opacity: 1 } : { opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="inline-block mb-4 py-1 px-3 rounded-full bg-nibite-blue/10 text-nibite-blue text-sm font-medium"
+            className="inline-block mb-4 py-1 px-3 rounded-full bg-nibite-orange/10 text-nibite-orange text-sm font-medium"
           >
             Nossos Serviços
           </motion.span>
@@ -77,13 +77,13 @@ export function Services() {
               transition={{ duration: 0.5, delay: service.delay }}
               className="glass-panel rounded-xl p-8 shadow-subtle hover:shadow-elevated transition-all duration-300"
             >
-              <div className="bg-nibite-blue/10 p-3 rounded-full w-fit mb-6">
-                <service.icon className="h-6 w-6 text-nibite-blue" />
+              <div className="bg-nibite-orange/10 p-3 rounded-full w-fit mb-6">
+                <service.icon className="h-6 w-6 text-nibite-orange" />
               </div>
               <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6">{service.description}</p>
               
-              <Button variant="ghost" className="text-nibite-blue hover:text-nibite-light-blue hover:bg-nibite-blue/5 p-0 group">
+              <Button variant="ghost" className="text-nibite-orange hover:text-nibite-light-orange hover:bg-nibite-orange/5 p-0 group">
                 Saiba mais
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
               </Button>
@@ -97,7 +97,7 @@ export function Services() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="mt-16 text-center"
         >
-          <Button size="lg" className="bg-nibite-blue hover:bg-nibite-light-blue text-white transition-all duration-300">
+          <Button size="lg" className="bg-nibite-orange hover:bg-nibite-light-orange text-white transition-all duration-300">
             Ver todos os serviços
           </Button>
         </motion.div>

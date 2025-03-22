@@ -58,8 +58,9 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				nibite: {
-					blue: '#0070f3',
-					'light-blue': '#4da8ff',
+					orange: '#F97316',
+					'light-orange': '#FEC6A1',
+					'dark-orange': '#C2580F',
 					black: '#121212',
 					'dark-gray': '#222222',
 					'light-gray': '#f5f5f7',

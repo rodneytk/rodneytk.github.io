@@ -49,7 +49,7 @@ const Index = () => {
             exit={{ opacity: 0, scale: 0.8 }}
             transition={{ duration: 0.2 }}
             onClick={scrollToTop}
-            className="fixed right-6 bottom-6 p-3 rounded-full bg-nibite-blue hover:bg-nibite-light-blue text-white shadow-md transition-all duration-300 z-50"
+            className="fixed right-6 bottom-6 p-3 rounded-full bg-nibite-orange hover:bg-nibite-light-orange text-white shadow-md transition-all duration-300 z-50"
             aria-label="Voltar ao topo"
           >
             <ArrowUp size={20} />

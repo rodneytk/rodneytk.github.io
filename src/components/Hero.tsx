@@ -33,7 +33,7 @@ export function Hero() {
     const init = () => {
       particles = [];
       const particleCount = Math.min(canvas.width * 0.05, 100);
-      const colors = ['#0070f3', '#4da8ff', '#121212', '#f5f5f7'];
+      const colors = ['#F97316', '#FEC6A1', '#121212', '#f5f5f7'];
       
       for (let i = 0; i < particleCount; i++) {
         const radius = Math.random() * 1.5 + 0.5;
@@ -110,7 +110,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-block mb-4 py-1 px-3 rounded-full bg-nibite-blue/10 text-nibite-blue text-sm font-medium"
+            className="inline-block mb-4 py-1 px-3 rounded-full bg-nibite-orange/10 text-nibite-orange text-sm font-medium"
           >
             Desenvolvimento Digital
           </motion.span>
@@ -141,7 +141,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            <Button size="lg" className="bg-nibite-blue hover:bg-nibite-light-blue text-white transition-all duration-300 group">
+            <Button size="lg" className="bg-nibite-orange hover:bg-nibite-light-orange text-white transition-all duration-300 group">
               Iniciar agora
               <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
             </Button>
@@ -165,7 +165,7 @@ export function Hero() {
               { value: '100%', label: 'Satisfação' },
             ].map((stat, index) => (
               <div key={index} className="flex flex-col">
-                <span className="text-3xl md:text-4xl font-bold text-nibite-blue">{stat.value}</span>
+                <span className="text-3xl md:text-4xl font-bold text-nibite-orange">{stat.value}</span>
                 <span className="text-sm text-gray-500 dark:text-gray-400">{stat.label}</span>
               </div>
             ))}

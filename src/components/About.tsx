@@ -45,7 +45,7 @@ export function About() {
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
             transition={{ duration: 0.6 }}
           >
-            <span className="inline-block mb-4 py-1 px-3 rounded-full bg-nibite-blue/10 text-nibite-blue text-sm font-medium">
+            <span className="inline-block mb-4 py-1 px-3 rounded-full bg-nibite-orange/10 text-nibite-orange text-sm font-medium">
               Sobre a Nibite
             </span>
             
@@ -74,7 +74,7 @@ export function About() {
                 { value: '15+', label: 'Especialistas' },
               ].map((stat, index) => (
                 <div key={index} className="flex flex-col">
-                  <span className="text-3xl font-bold text-nibite-blue mb-1">{stat.value}</span>
+                  <span className="text-3xl font-bold text-nibite-orange mb-1">{stat.value}</span>
                   <span className="text-sm text-gray-500 dark:text-gray-400">{stat.label}</span>
                 </div>
               ))}
@@ -95,8 +95,8 @@ export function About() {
                 transition={{ duration: 0.5, delay: 0.4 + index * 0.1 }}
                 className="glass-panel rounded-xl p-6 shadow-subtle"
               >
-                <div className="bg-nibite-blue/10 p-3 rounded-full w-fit mb-4">
-                  <value.icon className="h-5 w-5 text-nibite-blue" />
+                <div className="bg-nibite-orange/10 p-3 rounded-full w-fit mb-4">
+                  <value.icon className="h-5 w-5 text-nibite-orange" />
                 </div>
                 <h3 className="text-lg font-semibold mb-2">{value.title}</h3>
                 <p className="text-gray-600 dark:text-gray-300 text-sm">{value.description}</p>

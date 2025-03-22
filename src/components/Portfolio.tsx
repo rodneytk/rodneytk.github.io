@@ -45,7 +45,7 @@ export function Portfolio() {
             initial={{ opacity: 0 }}
             animate={isInView ? { opacity: 1 } : { opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="inline-block mb-4 py-1 px-3 rounded-full bg-nibite-blue/10 text-nibite-blue text-sm font-medium"
+            className="inline-block mb-4 py-1 px-3 rounded-full bg-nibite-orange/10 text-nibite-orange text-sm font-medium"
           >
             Nosso Portfólio
           </motion.span>
@@ -94,11 +94,11 @@ export function Portfolio() {
               </div>
               <div className="p-6">
                 <div className="mb-3">
-                  <span className="text-sm text-nibite-blue font-medium">{project.category}</span>
+                  <span className="text-sm text-nibite-orange font-medium">{project.category}</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
-                <Button variant="ghost" className="text-nibite-blue hover:text-nibite-light-blue hover:bg-nibite-blue/5 p-0 group">
+                <Button variant="ghost" className="text-nibite-orange hover:text-nibite-light-orange hover:bg-nibite-orange/5 p-0 group">
                   Ver detalhes
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                 </Button>
@@ -113,7 +113,7 @@ export function Portfolio() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="mt-16 text-center"
         >
-          <Button size="lg" className="bg-nibite-blue hover:bg-nibite-light-blue text-white transition-all duration-300">
+          <Button size="lg" className="bg-nibite-orange hover:bg-nibite-light-orange text-white transition-all duration-300">
             Ver todos os projetos
           </Button>
         </motion.div>
